@@ -7,13 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C607785F22AD7257002B8A5C /* StickerCollectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C607785D22AD7257002B8A5C /* StickerCollectionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C607786122AD72DF002B8A5C /* StickerCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C607786022AD72DF002B8A5C /* StickerCollectionLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C607786722AD7675002B8A5C /* StickerCollectionRowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C607786322AD7675002B8A5C /* StickerCollectionRowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C607786822AD7675002B8A5C /* StickerCollectionLayoutItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C607786422AD7675002B8A5C /* StickerCollectionLayoutItemModel.h */; };
+		C607786922AD7675002B8A5C /* StickerCollectionRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C607786522AD7675002B8A5C /* StickerCollectionRowLayout.m */; };
+		C607786A22AD7675002B8A5C /* StickerCollectionLayoutItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C607786622AD7675002B8A5C /* StickerCollectionLayoutItemModel.m */; };
+		C607786D22AD7719002B8A5C /* StickerCollectionDefaultFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C607786B22AD7719002B8A5C /* StickerCollectionDefaultFactory.h */; };
+		C607786E22AD7719002B8A5C /* StickerCollectionDefaultFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C607786C22AD7719002B8A5C /* StickerCollectionDefaultFactory.m */; };
+		C607787922AD8113002B8A5C /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = C607787822AD8113002B8A5C /* Defines.h */; };
+		C6097C3722ABDAAB007D16AD /* NSMutableArray+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = C6097C3122ABDAAB007D16AD /* NSMutableArray+Ex.m */; };
+		C6097C3822ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C6097C3222ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.m */; };
+		C6097C3922ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C6097C3322ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6097C3A22ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C6097C3422ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.m */; };
+		C6097C3B22ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C6097C3522ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6097C3C22ABDAAB007D16AD /* NSMutableArray+Ex.h in Headers */ = {isa = PBXBuildFile; fileRef = C6097C3622ABDAAB007D16AD /* NSMutableArray+Ex.h */; };
 		C60AF8E7223E4A6100A033ED /* StickerCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = C60AF8E5223E4A6100A033ED /* StickerCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60AF8EF223E4B5100A033ED /* StickerCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C60AF8ED223E4B5100A033ED /* StickerCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60AF8F0223E4B5100A033ED /* StickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60AF8EE223E4B5100A033ED /* StickerCollectionView.m */; };
+		C60AF8F3223E4B7400A033ED /* StickerCollectionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C60AF8F1223E4B7400A033ED /* StickerCollectionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6547D9022BE45890044806B /* StickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6547D8E22BE45890044806B /* StickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6547D9122BE45890044806B /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6547D8F22BE45890044806B /* StickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C607785D22AD7257002B8A5C /* StickerCollectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCollectionFactory.h; sourceTree = "<group>"; };
+		C607786022AD72DF002B8A5C /* StickerCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCollectionLayout.h; sourceTree = "<group>"; };
+		C607786322AD7675002B8A5C /* StickerCollectionRowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCollectionRowLayout.h; sourceTree = "<group>"; };
+		C607786422AD7675002B8A5C /* StickerCollectionLayoutItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCollectionLayoutItemModel.h; sourceTree = "<group>"; };
+		C607786522AD7675002B8A5C /* StickerCollectionRowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionRowLayout.m; sourceTree = "<group>"; };
+		C607786622AD7675002B8A5C /* StickerCollectionLayoutItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionLayoutItemModel.m; sourceTree = "<group>"; };
+		C607786B22AD7719002B8A5C /* StickerCollectionDefaultFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerCollectionDefaultFactory.h; sourceTree = "<group>"; };
+		C607786C22AD7719002B8A5C /* StickerCollectionDefaultFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionDefaultFactory.m; sourceTree = "<group>"; };
+		C607787822AD8113002B8A5C /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		C6097C3122ABDAAB007D16AD /* NSMutableArray+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Ex.m"; sourceTree = "<group>"; };
+		C6097C3222ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+StickerCollectionDataSource.m"; sourceTree = "<group>"; };
+		C6097C3322ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+StickerCollectionDataSource.h"; sourceTree = "<group>"; };
+		C6097C3422ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+StickerCollectionDataSource.m"; sourceTree = "<group>"; };
+		C6097C3522ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+StickerCollectionDataSource.h"; sourceTree = "<group>"; };
+		C6097C3622ABDAAB007D16AD /* NSMutableArray+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Ex.h"; sourceTree = "<group>"; };
 		C60AF8E2223E4A6100A033ED /* StickerCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StickerCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60AF8E5223E4A6100A033ED /* StickerCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerCollection.h; sourceTree = "<group>"; };
 		C60AF8E6223E4A6100A033ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60AF8ED223E4B5100A033ED /* StickerCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerCollectionView.h; sourceTree = "<group>"; };
+		C60AF8EE223E4B5100A033ED /* StickerCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionView.m; sourceTree = "<group>"; };
+		C60AF8F1223E4B7400A033ED /* StickerCollectionDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerCollectionDataSource.h; sourceTree = "<group>"; };
+		C6547D8E22BE45890044806B /* StickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		C6547D8F22BE45890044806B /* StickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +67,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C607786222AD7675002B8A5C /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				C607786422AD7675002B8A5C /* StickerCollectionLayoutItemModel.h */,
+				C607786622AD7675002B8A5C /* StickerCollectionLayoutItemModel.m */,
+				C607786B22AD7719002B8A5C /* StickerCollectionDefaultFactory.h */,
+				C607786C22AD7719002B8A5C /* StickerCollectionDefaultFactory.m */,
+				C607786322AD7675002B8A5C /* StickerCollectionRowLayout.h */,
+				C607786522AD7675002B8A5C /* StickerCollectionRowLayout.m */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		C607787722AD8113002B8A5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C607787822AD8113002B8A5C /* Defines.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C6097C2F22ABDA88007D16AD /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C6547D8E22BE45890044806B /* StickerView.h */,
+				C6547D8F22BE45890044806B /* StickerView.m */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		C6097C3022ABDAAB007D16AD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C6097C3622ABDAAB007D16AD /* NSMutableArray+Ex.h */,
+				C6097C3122ABDAAB007D16AD /* NSMutableArray+Ex.m */,
+				C6097C3322ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.h */,
+				C6097C3422ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.m */,
+				C6097C3522ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.h */,
+				C6097C3222ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		C60AF8D8223E4A6100A033ED = {
 			isa = PBXGroup;
 			children = (
@@ -46,7 +129,16 @@
 		C60AF8E4223E4A6100A033ED /* StickerCollection */ = {
 			isa = PBXGroup;
 			children = (
+				C607787722AD8113002B8A5C /* Utils */,
+				C6097C3022ABDAAB007D16AD /* Categories */,
+				C6097C2F22ABDA88007D16AD /* Elements */,
+				C607786222AD7675002B8A5C /* Implementations */,
 				C60AF8E5223E4A6100A033ED /* StickerCollection.h */,
+				C60AF8F1223E4B7400A033ED /* StickerCollectionDataSource.h */,
+				C607785D22AD7257002B8A5C /* StickerCollectionFactory.h */,
+				C607786022AD72DF002B8A5C /* StickerCollectionLayout.h */,
+				C60AF8ED223E4B5100A033ED /* StickerCollectionView.h */,
+				C60AF8EE223E4B5100A033ED /* StickerCollectionView.m */,
 				C60AF8E6223E4A6100A033ED /* Info.plist */,
 			);
 			path = StickerCollection;
@@ -60,6 +152,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C60AF8E7223E4A6100A033ED /* StickerCollection.h in Headers */,
+				C607786122AD72DF002B8A5C /* StickerCollectionLayout.h in Headers */,
+				C607787922AD8113002B8A5C /* Defines.h in Headers */,
+				C6097C3B22ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.h in Headers */,
+				C60AF8EF223E4B5100A033ED /* StickerCollectionView.h in Headers */,
+				C607786722AD7675002B8A5C /* StickerCollectionRowLayout.h in Headers */,
+				C607786822AD7675002B8A5C /* StickerCollectionLayoutItemModel.h in Headers */,
+				C60AF8F3223E4B7400A033ED /* StickerCollectionDataSource.h in Headers */,
+				C6097C3922ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.h in Headers */,
+				C6547D9022BE45890044806B /* StickerView.h in Headers */,
+				C607785F22AD7257002B8A5C /* StickerCollectionFactory.h in Headers */,
+				C6097C3C22ABDAAB007D16AD /* NSMutableArray+Ex.h in Headers */,
+				C607786D22AD7719002B8A5C /* StickerCollectionDefaultFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C607786922AD7675002B8A5C /* StickerCollectionRowLayout.m in Sources */,
+				C6547D9122BE45890044806B /* StickerView.m in Sources */,
+				C6097C3A22ABDAAB007D16AD /* NSMutableArray+StickerCollectionDataSource.m in Sources */,
+				C607786A22AD7675002B8A5C /* StickerCollectionLayoutItemModel.m in Sources */,
+				C6097C3722ABDAAB007D16AD /* NSMutableArray+Ex.m in Sources */,
+				C60AF8F0223E4B5100A033ED /* StickerCollectionView.m in Sources */,
+				C6097C3822ABDAAB007D16AD /* NSUserDefaults+StickerCollectionDataSource.m in Sources */,
+				C607786E22AD7719002B8A5C /* StickerCollectionDefaultFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -159,7 +272,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -202,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -221,7 +335,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -265,8 +379,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = StickerCollection/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,8 +403,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = StickerCollection/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
